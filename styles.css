@@ -72,7 +72,8 @@ label {
 }
 
 .check-btn {
-  width: 5rem;
+  width: 30%;
+  min-width: min-content;
   border: none;
   background-color: var(--gold-color);
   color: var(--charcoal-color);
@@ -127,6 +128,27 @@ label {
   }
 
   .heading-container {
-    font-size: 1.13rem;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 230px) {
+  .heading-container {
+    font-size: 0.6rem;
+  }
+
+  .query-box,
+  .check-btn {
+    font-size: 0.8rem;
+  }
+
+  .hint-box {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 130px) {
+  body {
+    word-break: break-all;
   }
 }
