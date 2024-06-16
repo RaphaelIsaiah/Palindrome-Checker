@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Wondering whether your phrase can read the same backward as forward? Put it to the test with our Palindrome Checker!"
+    />
+    <meta name="og:title" content="Palindrome Checker" />
+    <meta
+      name="og:description"
+      content="Wondering whether your phrase can read the same backward as forward? Put it to the test with our Palindrome Checker!"
+    />
+    <meta name="og:image" content="https://i.postimg.cc/kGrhJmFr/Profile-picture.jpg" />
+    <meta name="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://raphaelisaiahportfolio.vercel.app/"
+    />
+    <title>Palindrome Checker Project</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="main-container">
+      <!-- Header Titile -->
+      <header class="heading-container">
+        <h2>
+          A freeCodeCamp
+          <i class="fa-brands fa-free-code-camp"></i> Project
+        </h2>
+        <h1>Palindrome Checker</h1>
+      </header>
+
+      <!-- Query Box -->
+      <section class="query-box">
+        <label for="text-input"
+          >Input a text to check if it is a palindrome</label
+        >
+        <input
+          type="text"
+          name="text-input"
+          id="text-input"
+          class="user-input"
+        />
+        <button id="check-btn" class="check-btn">Check</button>
+        <!-- Result div implemented with script.js -->
+        <div id="result" class="result-div hidden">
+          <p id="result-text" class="result-text"></p>
+        </div>
+      </section>
+
+      <!-- Hint Section -->
+      <section class="hint-box">
+        <p>&#11088; &#11088; &#11088;</p>
+        <p>
+          A <dfn>palindrome</dfn> is a word or sentence that is spelled the same
+          way both forward and backward, ignoring punctuation, case, and
+          spacing.
+        </p>
+      </section>
+    </main>
+  </body>
+  <script
+    src="https://kit.fontawesome.com/347e555568.js"
+    crossorigin="anonymous"
+  ></script>
+  <script src="./script.js"></script>
+</html>
